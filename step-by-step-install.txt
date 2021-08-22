@@ -1,0 +1,38 @@
+-git init
+
+-mkdir server
+
+-cd server
+
+-yarn init:
+
+yarn init v1.22.11
+question name (server):
+question version (1.0.0):
+question description: reddit
+question entry point (index.js):
+question repository url:
+question author: DucTran and DatTran
+question license (MIT):
+question private:
+success Saved package.json
+Done in 72.81s.
+
+-yarn add -D @types/node typescript
+
+-go to package.json in server folder and add  
+
+"scripts": {
+    "start": "ts-node server/index.ts"
+  },
+
+
+-yarn add -D ts-node
+
+-npx tsconfig.json then choose node
+
+
+
+
+
+

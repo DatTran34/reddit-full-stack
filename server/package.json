@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "reddit",
+  "main": "index.js",
+  "scripts": {
+    "start-ts": "ts-node src/index.ts",
+    "watch": "tsc -w"
+  },
+  "author": "DucTran and DatTran",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.7.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  }
+}
